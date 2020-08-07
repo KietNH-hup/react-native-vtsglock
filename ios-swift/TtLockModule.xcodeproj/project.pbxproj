@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F421FA622A4B938002B7972 /* libTTLock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE0BF2622A4AFAF006F5C8D /* libTTLock.a */; };
+		4F65CC5121525B2600BD3F7B /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F65CC4E21525B2600BD3F7B /* NSObject+YYModel.m */; };
+		4F65CC5221525B2600BD3F7B /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F65CC4F21525B2600BD3F7B /* YYClassInfo.m */; };
+		4F8FEE972150DD57008E0527 /* TtLockModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8FEE962150DD57008E0527 /* TtLockModule.m */; };
+		4F8FEE982150DD57008E0527 /* TtLockModule.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F8FEE952150DD57008E0527 /* TtLockModule.h */; };
+		4F8FEEA22150DD95008E0527 /* LockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8FEE9E2150DD95008E0527 /* LockModel.m */; };
+		4F8FEEA32150DD95008E0527 /* PTBLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8FEEA12150DD95008E0527 /* PTBLE.m */; };
+		D32805AFCBDE62D643BBA07A /* Pods_TtLockModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FF70C5271D3C7848A608B4 /* Pods_TtLockModule.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F8FEE902150DD57008E0527 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				4F8FEE982150DD57008E0527 /* TtLockModule.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4319C5B467E7041A101D48A2 /* Pods-TtLockModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TtLockModule.debug.xcconfig"; path = "Target Support Files/Pods-TtLockModule/Pods-TtLockModule.debug.xcconfig"; sourceTree = "<group>"; };
+		4F65CC4C21525B2600BD3F7B /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		4F65CC4D21525B2600BD3F7B /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		4F65CC4E21525B2600BD3F7B /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		4F65CC4F21525B2600BD3F7B /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		4F65CC5021525B2600BD3F7B /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		4F8FEE922150DD57008E0527 /* libTtLockModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTtLockModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8FEE952150DD57008E0527 /* TtLockModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TtLockModule.h; sourceTree = "<group>"; };
+		4F8FEE962150DD57008E0527 /* TtLockModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TtLockModule.m; sourceTree = "<group>"; };
+		4F8FEE9E2150DD95008E0527 /* LockModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockModel.m; sourceTree = "<group>"; };
+		4F8FEE9F2150DD95008E0527 /* LockModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockModel.h; sourceTree = "<group>"; };
+		4F8FEEA02150DD95008E0527 /* PTBLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTBLE.h; sourceTree = "<group>"; };
+		4F8FEEA12150DD95008E0527 /* PTBLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTBLE.m; sourceTree = "<group>"; };
+		4FE0BF2622A4AFAF006F5C8D /* libTTLock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTTLock.a; sourceTree = "<group>"; };
+		4FE0BF2722A4AFAF006F5C8D /* TTLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTLock.h; sourceTree = "<group>"; };
+		4FE0BF2822A4AFAF006F5C8D /* TTSpecialValueUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTSpecialValueUtil.h; sourceTree = "<group>"; };
+		4FE0BF2922A4AFAF006F5C8D /* TTUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTUtils.h; sourceTree = "<group>"; };
+		4FE0BF2A22A4AFAF006F5C8D /* SecurityUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecurityUtil.h; sourceTree = "<group>"; };
+		4FE0BF2B22A4AFAF006F5C8D /* TTSDKDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTSDKDelegate.h; sourceTree = "<group>"; };
+		CF14F62B679EFFFA03C0C5A3 /* Pods-TtLockModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TtLockModule.release.xcconfig"; path = "Target Support Files/Pods-TtLockModule/Pods-TtLockModule.release.xcconfig"; sourceTree = "<group>"; };
+		D2FF70C5271D3C7848A608B4 /* Pods_TtLockModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TtLockModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F8FEE8F2150DD57008E0527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F421FA622A4B938002B7972 /* libTTLock.a in Frameworks */,
+				D32805AFCBDE62D643BBA07A /* Pods_TtLockModule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A2C1849FD433B162497CE95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4319C5B467E7041A101D48A2 /* Pods-TtLockModule.debug.xcconfig */,
+				CF14F62B679EFFFA03C0C5A3 /* Pods-TtLockModule.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4F421FA522A4B938002B7972 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2FF70C5271D3C7848A608B4 /* Pods_TtLockModule.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F65CC4B21525B2600BD3F7B /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				4F65CC4C21525B2600BD3F7B /* YYClassInfo.h */,
+				4F65CC4D21525B2600BD3F7B /* YYModel.h */,
+				4F65CC4E21525B2600BD3F7B /* NSObject+YYModel.m */,
+				4F65CC4F21525B2600BD3F7B /* YYClassInfo.m */,
+				4F65CC5021525B2600BD3F7B /* NSObject+YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		4F8FEE892150DD57008E0527 = {
+			isa = PBXGroup;
+			children = (
+				4F8FEE942150DD57008E0527 /* TtLockModule */,
+				4F8FEE932150DD57008E0527 /* Products */,
+				4F421FA522A4B938002B7972 /* Frameworks */,
+				4A2C1849FD433B162497CE95 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4F8FEE932150DD57008E0527 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F8FEE922150DD57008E0527 /* libTtLockModule.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F8FEE942150DD57008E0527 /* TtLockModule */ = {
+			isa = PBXGroup;
+			children = (
+				4F8FEE952150DD57008E0527 /* TtLockModule.h */,
+				4F8FEE962150DD57008E0527 /* TtLockModule.m */,
+				4F8FEE9F2150DD95008E0527 /* LockModel.h */,
+				4F8FEE9E2150DD95008E0527 /* LockModel.m */,
+				4F8FEEA02150DD95008E0527 /* PTBLE.h */,
+				4F8FEEA12150DD95008E0527 /* PTBLE.m */,
+				4FE0BF2522A4AFAF006F5C8D /* TTLock */,
+				4F65CC4B21525B2600BD3F7B /* YYModel */,
+			);
+			path = TtLockModule;
+			sourceTree = "<group>";
+		};
+		4FE0BF2522A4AFAF006F5C8D /* TTLock */ = {
+			isa = PBXGroup;
+			children = (
+				4FE0BF2622A4AFAF006F5C8D /* libTTLock.a */,
+				4FE0BF2722A4AFAF006F5C8D /* TTLock.h */,
+				4FE0BF2822A4AFAF006F5C8D /* TTSpecialValueUtil.h */,
+				4FE0BF2922A4AFAF006F5C8D /* TTUtils.h */,
+				4FE0BF2A22A4AFAF006F5C8D /* SecurityUtil.h */,
+				4FE0BF2B22A4AFAF006F5C8D /* TTSDKDelegate.h */,
+			);
+			path = TTLock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F8FEE912150DD57008E0527 /* TtLockModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8FEE9B2150DD57008E0527 /* Build configuration list for PBXNativeTarget "TtLockModule" */;
+			buildPhases = (
+				E003AE773B028BD3811094B4 /* [CP] Check Pods Manifest.lock */,
+				4F8FEE8E2150DD57008E0527 /* Sources */,
+				4F8FEE8F2150DD57008E0527 /* Frameworks */,
+				4F8FEE902150DD57008E0527 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TtLockModule;
+			productName = TtLockModule;
+			productReference = 4F8FEE922150DD57008E0527 /* libTtLockModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F8FEE8A2150DD57008E0527 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = HangZhouSciener;
+				TargetAttributes = {
+					4F8FEE912150DD57008E0527 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 4F8FEE8D2150DD57008E0527 /* Build configuration list for PBXProject "TtLockModule" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4F8FEE892150DD57008E0527;
+			productRefGroup = 4F8FEE932150DD57008E0527 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F8FEE912150DD57008E0527 /* TtLockModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E003AE773B028BD3811094B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TtLockModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F8FEE8E2150DD57008E0527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8FEEA32150DD95008E0527 /* PTBLE.m in Sources */,
+				4F8FEE972150DD57008E0527 /* TtLockModule.m in Sources */,
+				4F8FEEA22150DD95008E0527 /* LockModel.m in Sources */,
+				4F65CC5221525B2600BD3F7B /* YYClassInfo.m in Sources */,
+				4F65CC5121525B2600BD3F7B /* NSObject+YYModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4F8FEE992150DD57008E0527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F8FEE9A2150DD57008E0527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F8FEE9C2150DD57008E0527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4319C5B467E7041A101D48A2 /* Pods-TtLockModule.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W384X4TB6S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TtLockModule",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TtLockModule/TTLock",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F8FEE9D2150DD57008E0527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF14F62B679EFFFA03C0C5A3 /* Pods-TtLockModule.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W384X4TB6S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TtLockModule",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TtLockModule/TTLock",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F8FEE8D2150DD57008E0527 /* Build configuration list for PBXProject "TtLockModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8FEE992150DD57008E0527 /* Debug */,
+				4F8FEE9A2150DD57008E0527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8FEE9B2150DD57008E0527 /* Build configuration list for PBXNativeTarget "TtLockModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8FEE9C2150DD57008E0527 /* Debug */,
+				4F8FEE9D2150DD57008E0527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F8FEE8A2150DD57008E0527 /* Project object */;
+}

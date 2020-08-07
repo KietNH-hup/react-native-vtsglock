@@ -1,0 +1,19 @@
+{
+  "name": "react-native-gokilock",
+  "version": "1.2.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "keywords": [
+    "react-native", "ttlock"
+  ],
+  "peerDependencies": {
+    "react-native": "^0.57.8"
+  },
+  "author": "Keyvan Shojayi",
+  "license": "ISC"
+}

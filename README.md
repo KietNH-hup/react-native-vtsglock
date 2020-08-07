@@ -34,7 +34,7 @@ allprojects {
         ...    
         // Add below lines
         flatDir{
-            dirs "$rootDir/../node_modules/react-native-tipilock/android/libs"
+            dirs "$rootDir/../node_modules/react-native-vtsglock/android/libs"
         }
     }
 }

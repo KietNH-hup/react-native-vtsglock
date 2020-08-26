@@ -121,6 +121,8 @@ export default class TipiLock {
      * @param callback
      */
     static setLockTime(timestamp: number, timeZoneOffset: number, lockData: LockData, callback: SuccessErrorCallback): void
+                          
+    static getLockTime(lockData: LockData, callback: SuccessErrorCallback): void
 
     static getElectricQuantity(lockItemObj: LockData, callback: SuccessErrorCallback<{ electricQuantity: number }>): void
 

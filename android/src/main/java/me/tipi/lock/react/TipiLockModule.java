@@ -22,6 +22,8 @@ import java.text.DateFormat;
 import java.util.HashMap;
 
 import me.tipi.lock.react.Sessions.AddPeriodKeyboardPasswordSession;
+import me.tipi.lock.react.Sessions.AddICCard;
+import me.tipi.lock.react.Sessions.AddFingerPrint;
 import me.tipi.lock.react.Sessions.DeleteOneKeyboardPasswordSession;
 import me.tipi.lock.react.Sessions.GetElectricQuantitySession;
 import me.tipi.lock.react.Sessions.GetLockTimeSession;
@@ -175,6 +177,16 @@ public class TipiLockModule extends ReactContextBaseJavaModule implements TTLock
     @ReactMethod
     public void operateAudioSwitch(int operateType, int state, String keyJson, Callback callback) {
         session.start(new OperateAudioSwitchSession(operateType, state, keyJson, callback));
+    }
+
+    @ReactMethod
+    public void addICCard(String keyJson, Callback callback) {
+        session.start(new AddICCard(keyJson, callback));
+    }
+
+        @ReactMethod
+    public void addFingerPrint(String keyJson, Callback callback) {
+        session.start(new AddFingerPrint(keyJson, callback));
     }
 
     @Override

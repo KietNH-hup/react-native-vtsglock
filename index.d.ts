@@ -111,6 +111,8 @@ export default class TipiLock {
 
     static unlockByAdministrator(lockItemObj: LockData, callback: SuccessErrorCallback): void
 
+    static getOperateLog(lockItemObj: KeyObjectInfoType, callback: SuccessErrorCallback): void
+
     static resetLock(lockData: LockData, callback: SuccessErrorCallback): void
 
     /**
@@ -121,7 +123,7 @@ export default class TipiLock {
      * @param callback
      */
     static setLockTime(timestamp: number, timeZoneOffset: number, lockData: LockData, callback: SuccessErrorCallback): void
-                          
+
     static getLockTime(lockData: LockData, callback: SuccessErrorCallback): void
 
     static getElectricQuantity(lockItemObj: LockData, callback: SuccessErrorCallback<{ electricQuantity: number }>): void
@@ -156,4 +158,14 @@ export default class TipiLock {
         lock: LockData,
         callback: SuccessErrorCallback<{}>
     )
+
+    static addICCard(
+        lock: LockData,
+        callback: SuccessErrorCallback<{}>
+    ): void
+
+    static addFingerPrint(
+        lock: LockData,
+        callback: SuccessErrorCallback<{}>
+    ): void
 }

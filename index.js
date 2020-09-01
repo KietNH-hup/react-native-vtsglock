@@ -120,6 +120,19 @@ export default class TipiLock {
         )
     }
 
+    //#region  FINGER
+    static addFingerPrint(lock, callback) {
+         TipiLockModule.addFingerPrint(this.normalizeLockData(lock), this.normalizeCallback(callback))
+    }
+    //#endregion
+    
+    //#region RF CARD
+    static addICCard(lock, callback) {
+        TipiLockModule.addICCard(this.normalizeLockData(lock), this.normalizeCallback(callback))
+    }
+
+    //#endregion
+
     static resetKeyboardPassword(lock, callback) {
         // if (Platform.OS === 'android')
         TipiLockModule.resetKeyboardPassword(this.normalizeLockData(lock), this.normalizeCallback(callback))
@@ -244,7 +257,7 @@ export default class TipiLock {
             }
             callback && callback(info)
         }
-    }
+    }   
 
     static iosMapErrorCodeToMessage = {
         //TTErrorHadReseted

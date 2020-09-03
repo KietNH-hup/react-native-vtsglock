@@ -24,6 +24,7 @@ import java.util.HashMap;
 import me.tipi.lock.react.Sessions.AddPeriodKeyboardPasswordSession;
 import me.tipi.lock.react.Sessions.AddICCard;
 import me.tipi.lock.react.Sessions.AddFingerPrint;
+import me.tipi.lock.react.Sessions.GetOperateLog;
 import me.tipi.lock.react.Sessions.DeleteOneKeyboardPasswordSession;
 import me.tipi.lock.react.Sessions.GetElectricQuantitySession;
 import me.tipi.lock.react.Sessions.GetLockTimeSession;
@@ -184,9 +185,14 @@ public class TipiLockModule extends ReactContextBaseJavaModule implements TTLock
         session.start(new AddICCard(keyJson, callback));
     }
 
-        @ReactMethod
+    @ReactMethod
     public void addFingerPrint(String keyJson, Callback callback) {
         session.start(new AddFingerPrint(keyJson, callback));
+    }
+
+    @ReactMethod
+    public void getOperateLog(String keyJson, Callback callback) {
+        session.start(new GetOperateLog(keyJson, callback));
     }
 
     @Override
